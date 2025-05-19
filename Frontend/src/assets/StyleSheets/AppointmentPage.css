@@ -1,0 +1,103 @@
+/* Dark mode styles for AppointmentPage */
+
+.appointment-container {
+  padding: 20px;
+  max-width: 100vw;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  min-height: 100vh;
+}
+
+.appointment-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.appointment-form {
+  margin-bottom: 30px;
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #1e1e1e;
+}
+
+.appointment-form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #333;
+  color: #e0e0e0;
+  font-size: large;
+}
+
+.appointment-form input::placeholder {
+  color: #aaa;
+}
+
+.appointment-form button {
+  padding: 10px 20px;
+  background-color: #388e3c;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.appointment-form button:hover {
+  background-color: #2e7d32;
+}
+
+.appointment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.appointment-item {
+  border: 1px solid #333;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.05);
+}
+
+.appointment-item p {
+  margin: 5px 0;
+}
+
+.appointment-item button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.appointment-item button.edit-btn {
+  background-color: #616161;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.appointment-item button.edit-btn:hover {
+  background-color: #757575;
+}
+
+.appointment-item button.delete-btn {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.appointment-item button.delete-btn:hover {
+  background-color: #b71c1c;
+}

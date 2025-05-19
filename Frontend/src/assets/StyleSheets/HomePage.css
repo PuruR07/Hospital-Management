@@ -1,0 +1,77 @@
+.homepage-container {
+  padding: 3rem 2rem;
+  color: whitesmoke;
+  background-color: #121212;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.homepage-container h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.dashboard-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  background-color: #1e1e1e;
+  padding: 2rem 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.card button {
+  padding: 0.6rem 1.2rem;
+  background-color: #1976d2;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #1565c0;
+}
+
+button a {
+  text-decoration: none;
+  color: inherit;
+}
+.btn-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #1976d2;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-link:hover {
+  background-color: #1565c0;
+}
