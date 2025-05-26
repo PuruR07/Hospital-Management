@@ -7,9 +7,9 @@ import appointmentRoutes from './Routes/appointments.routes.js'
 const app = express()
 dotenv.config()
 app.use(express.json());
-app.use("/api/doctors", doctorsRoutes);//* This will use the productRoutes for all the routes that start with /api/products
-app.use("/api/patient", patientRoutes);//* This will use the productRoutes for all the routes that start with /api/products
-app.use("/api/appointment", appointmentRoutes);//* This will use the productRoutes for all the routes that start with /api/products
+app.use("/api/doctors", doctorsRoutes);
+app.use("/api/patient", patientRoutes);
+app.use("/api/appointment", appointmentRoutes);
 const PORT = process.env.PORT || 80
 
 app.listen(PORT, () =>{
